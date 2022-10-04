@@ -3,10 +3,6 @@ const num = document.querySelector("#num");
 const check = document.querySelector("#check");
 const result=document.querySelector("#result");
 
-function equalValues(sumD,num){
-    if(sumD%num=== 0){result.innerText="Your Birthday is lucky";}
-    else{result.innerText="Your Birthday is unlucky";}
-    }
 
 function sumOfDob(dateOfBirth){
     dateOfBirth=dateOfBirth.replaceAll("-","");
@@ -15,6 +11,14 @@ for(let i=0 ; i<dateOfBirth.length ; i++)
 {sumD = sumD + Number(dateOfBirth.charAt(i));}
 return sumD;
 }
+
+
+
+function equalValues(sumD,num){
+    if(sumD%num=== 0){result.innerText="Your Birthday is lucky";}
+    else{result.innerText="Your Birthday is unlucky";}
+    }
+
 
 
 
