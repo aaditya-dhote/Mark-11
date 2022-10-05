@@ -1,7 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+body{font-family: "Nabla";
+    background-color:#4424c4;
+}
+
+h1{
+    text-align: center;
+}
+
+.entries{
+    text-align: center;
+    margin:4rem;
+}
+
 #result{
+    margin: auto;
     border-style: groove;
-    border-color: black;
+    
+    border-radius: 1.5rem;
     background-color: white;
-    height: 5rem;
-    width:80vw;
+    height: 2rem;
+    width:50vw;
+    text-align: center;
+}
+
+#dob,#num,#check{
+    border-radius: 2rem;
+    border-color: yellow;
+
+}
+
+#check{
+    background-color:#4424c4;
+    font-family: "Nabla";
+    border-color: yellow;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 12rem;
 }
